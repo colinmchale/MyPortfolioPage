@@ -46,3 +46,57 @@ nav li a:hover {
     color: var(--secondary);
 }
 
+main {
+    width: 98%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+h2{
+    font-size: 175%;
+    text-align: center;
+}
+
+.box-row {
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
+}
+
+.box-fig {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    min-height: 100%;
+}
+
+.mid-heading {
+    font-size: 150%;
+    display: inline-block;
+    margin: 3%;
+}
+
+#About {
+    position: relative;
+    top: 0px;
+}
+
+#selfie {
+    border: 5px solid var(--primary);
+    outline: 5px solid var(--tertiary);
+    position: relative;
+    top: 0px;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+#myinfo {
+    position: relative;
+    margin: 2px;
+}
