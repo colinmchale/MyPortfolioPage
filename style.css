@@ -1,6 +1,6 @@
 /* CSS StyleSheet */
 
-* {
+:root {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     --primary: #729E7F;
     --secondary: #0C5723;
@@ -11,10 +11,34 @@
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
     width: 100%;
-}
-
-header h1 {
     background-color: var(--tertiary);
     color: var(--quaternary);
 }
+
+header h1 {
+    font-size: 250%;
+    text-shadow: 0 0 10px var(--secondary);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+    list-style-type: none;
+  }
+
+nav li a {
+    display: inline;
+    color: var(--quaternary);
+    text-decoration: none;
+}
+
+nav li a:hover {
+    color: var(--secondary);
+}
+
