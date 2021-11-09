@@ -100,3 +100,55 @@ h2{
     position: relative;
     margin: 2px;
 }
+
+#Work {
+    position: relative;
+    top: 0px;
+}
+
+
+
+
+
+
+
+
+#bottom {
+    background-color: var(--primary);
+    color: var(--quaternary);
+}
+
+#bottom a {
+    color: var(--quaternary);
+    text-decoration: none;
+}
+
+#bottom a:hover{
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin: 5px;
+}
+
+.contact-info h4 {
+    position: relative;
+    left: 55px;
+}
+
+.contact-info p {
+    position: relative;
+    top: 30px;
+
+}
+
+#Contact {
+    position: relative;
+    top: 0px;
+}
+
