@@ -1,5 +1,4 @@
-/* CSS StyleSheet */
-
+/* setting rules for the entire page that can be overridden by more specific commands to follow */
 :root {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     --primary: #729E7F;
@@ -10,6 +9,7 @@
     color: var(--primary);
 }
 
+/* allows multiple elements to share the same line in the header section */
 header {
     display: flex;
     justify-content: space-between;
@@ -20,11 +20,13 @@ header {
     color: var(--quaternary);
 }
 
+/* sets font size and shadow on h1 */
 header h1 {
     font-size: 250%;
     text-shadow: 0 0 10px var(--secondary);
 }
 
+/* positions nav elements on the right of header */
 nav ul {
     display: flex;
     justify-content: space-around;
@@ -32,12 +34,14 @@ nav ul {
     list-style-type: none;
   }
 
+/* allowing nav elements to sit side by side without bullet points or underline */
 nav li a {
     display: inline;
     color: var(--quaternary);
     text-decoration: none;
 }
 
+/* changes color of nav when mouse hovers over */
 nav li a:hover {
     color: var(--secondary);
 }
