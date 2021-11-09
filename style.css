@@ -1,1 +1,20 @@
 /* CSS StyleSheet */
+
+* {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --primary: #729E7F;
+    --secondary: #0C5723;
+    --tertiary: #97D1A8;
+    --quaternary: white;
+    background-color: var(--quaternary);
+    color: var(--primary);
+}
+
+header {
+    width: 100%;
+}
+
+header h1 {
+    background-color: var(--tertiary);
+    color: var(--quaternary);
+}
