@@ -108,9 +108,9 @@ h2{
 
 
 
-
-
-
+.glow-box:hover {
+    box-shadow: inset 0px 0px 10px var(--tertiary), 0 0 15px var(--tertiary);
+  }
 
 
 #bottom {
