@@ -55,6 +55,10 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
+    flex: 1 0 100%;
+    padding: 1.5rem;
+    transition: flex-basis 500ms linear;
+    margin-bottom: 1.5rem;
 }
 
 h2{
@@ -62,11 +66,10 @@ h2{
     text-align: center;
 }
 
-.content-row {
-    flex: 1 0 100%;
-    padding: 1.5rem;
-    transition: flex-basis 500ms linear;
-    margin-bottom: 1.5rem;
+h3{
+    color: var(--secondary);
+    width: 100px;
+    text-shadow: 0 0 20px var(--tertiary);
 }
 
 .box-fig {
@@ -74,17 +77,7 @@ h2{
     flex-direction: row;
     justify-content: flex-start;
     min-height: 100%;
-}
-
-.mid-heading {
-    font-size: 150%;
-    display: inline-block;
-    margin: 3%;
-}
-
-#About {
-    position: relative;
-    top: 0px;
+    flex: 1;
 }
 
 #selfie {
@@ -92,6 +85,7 @@ h2{
     outline: 5px solid var(--tertiary);
     position: relative;
     top: 0px;
+    left: 15px;
     display: inline-block;
     margin-right: 25px;
 }
@@ -99,60 +93,8 @@ h2{
 #myinfo {
     position: relative;
     margin: 2px;
+    left: 15px;
 }
-
-#Work {
-    position: relative;
-    top: 0px;
-}
-
-/* using a mobile-first approach, set base column width to be 100% and we'll update it using media queries for larger screen sizes */
-/* .work-row {
-    flex: 1 0 100%;
-    padding: 1.5rem;
-    when the screen resizes, make it so our columns don't jump in size
-    transition: flex-basis 500ms linear;
-    margin-bottom: 1.5rem;
-  } */
-  
-  /* make each code card a flexbox column to align and justify content within it */
-  /* .code-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    min-height: 100%;
-    padding: 2rem;
-    color: var(--heliotrope); */
-  
-    /* outline is like border, but on the outside of the box instead of inside */
-    /* outline: 2px dashed var(--gin);
-    outline-offset: -2px;
-    transition: all 0.5s ease-in-out;
-  } */
-/*   
-  .code-card .card-header { */
-    /* use position and negative margins to move title of card over the card's outline and create an overlap effect */
-    /* position: relative;
-    margin: -4rem 0 1.5rem 0;
-    padding: 0.5rem 1rem;
-    background-color: var(--outer-space);
-    color: var(--heliotrope);
-    border: 2px solid var(--gin);
-    border-radius: 8px;
-    transition: all 0.5s ease-in-out;
-  } */
-  
-  /* set an outer and inner drop shadow on the card to create a glowing effect on hover */
-  /* .code-card:hover,
-  .code-card:hover .card-header {
-    box-shadow: inset 0px 0px 8px var(--heliotrope), 0 0 15px var(--heliotrope);
-  } */
-  
-  /* each card's code block grows to the height of the largest code block on the page, making each card even in height */
-  /* .code-card .code-block {
-    flex-grow: 1;
-  }
-   */
 
 .glow-box:hover {
     box-shadow: inset 0px 0px 10px var(--tertiary), 0 0 15px var(--tertiary);
@@ -162,6 +104,7 @@ h2{
 #bottom {
     background-color: var(--primary);
     color: var(--quaternary);
+    width: 100%;
 }
 
 #bottom a {
@@ -173,7 +116,7 @@ h2{
     color: var(--secondary);
     text-decoration: none;
 }
-
+/*
 .contact-info {
     display: flex;
     flex-direction: row;
@@ -192,9 +135,4 @@ h2{
     top: 30px;
 
 }
-
-#Contact {
-    position: relative;
-    top: 0px;
-}
-
+*/
