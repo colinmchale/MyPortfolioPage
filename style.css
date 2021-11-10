@@ -69,6 +69,7 @@ h2{
 h3{
     color: var(--secondary);
     width: 100px;
+    /* adds shadow to make the heading pop more than normal text */
     text-shadow: 0 0 20px var(--tertiary);
     font-size: 125%;
 }
@@ -81,6 +82,7 @@ h3{
     flex: 1;
 }
 
+/* added two borders to give the picture a differnet look also made it inline and allowed text to sit next to it */
 #selfie {
     border: 5px solid var(--primary);
     outline: 5px solid var(--tertiary);
@@ -101,6 +103,7 @@ h3{
     height: 300%;
 }
 
+/* moved the nam of the project slightly down near cneter of box */
 #work h4 {
     text-align: center;
     position: relative;
@@ -112,8 +115,10 @@ h3{
     text-align: center;
 }
 
+
 #work a{
     color:var(--primary);
+    /* took away the underline for the link */
     text-decoration: none;
     justify-content: space-around;
     padding: 2px;
@@ -123,11 +128,13 @@ h3{
     color: var(--quaternary);
 }
 
+/* set the first project box to grow at a faster rate than the rest of the project boxes */
 #first-work {
     flex: 2 1 600px;
     min-height: 200px;
 }
 
+/* set the second, third and fourth project boxes to grow and shrink at a normal pace */
 .rest-of-work{
     flex: 1 1 auto;
     min-height: none;
@@ -141,11 +148,13 @@ h3{
        rgba(245, 242, 66, 0.295) 0%,
        rgba(9, 110, 9, 0.6) 100%
     );
+    /* smooth transition for boxes when screen is resized */
     transition: all 0.5s ease-in-out;
     height: 100%;
     width: 100%;
 }
 
+/* creates the glow around the box when the mouse is over it */
 .glow-box:hover {
     box-shadow: inset 0px 0px 10px var(--tertiary), 0 0 15px var(--tertiary);
 }
