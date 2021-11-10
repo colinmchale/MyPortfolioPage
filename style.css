@@ -70,6 +70,7 @@ h3{
     color: var(--secondary);
     width: 100px;
     text-shadow: 0 0 20px var(--tertiary);
+    font-size: 125%;
 }
 
 .box-fig {
@@ -96,10 +97,58 @@ h3{
     left: 15px;
 }
 
+#work {
+    height: 300%;
+}
+
+#work h4 {
+    text-align: center;
+    position: relative;
+    top: 25px;
+    font-size: 115%;
+}
+
+#work p {
+    text-align: center;
+}
+
+#work a{
+    color:var(--primary);
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 2px;
+}
+
+#work p{
+    color: var(--quaternary);
+}
+
+#first-work {
+    flex: 2 1 600px;
+    min-height: 200px;
+}
+
+.rest-of-work{
+    flex: 1 1 auto;
+    min-height: none;
+    min-width: none;
+    flex-wrap: wrap;
+}
+
+.glow-box {
+    /* use linear-gradient() function to create a fading background  */
+    background-image: linear-gradient(
+       rgba(245, 242, 66, 0.295) 0%,
+       rgba(9, 110, 9, 0.6) 100%
+    );
+    transition: all 0.5s ease-in-out;
+    height: 100%;
+    width: 100%;
+}
+
 .glow-box:hover {
     box-shadow: inset 0px 0px 10px var(--tertiary), 0 0 15px var(--tertiary);
-  }
-
+}
 
 #bottom {
     background-color: var(--primary);
@@ -116,7 +165,7 @@ h3{
     color: var(--secondary);
     text-decoration: none;
 }
-/*
+
 .contact-info {
     display: flex;
     flex-direction: row;
@@ -135,4 +184,7 @@ h3{
     top: 30px;
 
 }
-*/
+
+footer {
+    text-align: center;
+}
