@@ -9,7 +9,7 @@ In this repository, you will find my code building a portfolio page that contain
 
 * About Me - contains a header that has proper indentation, an image of myself that has multiple borders, and a brief description.
 
-* Work - this section displays the projects in a row with the first projects growing twice as fast as the others. Each project has a link over the figure, however, only the first project will launch a new page as I only have one project to display up to this point. Each project is designed with a gradient background and in a card-like manner.
+* Work - this section displays the projects in a row with the first projects growing twice as fast as the others. Each project has a link over the figure. Each project is designed with a gradient background and in a card-like manner.
 
 * Contact Me - includes a header with proper indentation along with multiples sections of info (one being a link to a seperate tab).
 
