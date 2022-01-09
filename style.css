@@ -4,53 +4,53 @@
     --primary: #729E7F;
     --secondary: #0C5723;
     --tertiary: #97D1A8;
-    --quaternary: white;
+    --quaternary: rgb(239, 240, 227);
     background-color: var(--quaternary);
     color: var(--primary);
 }
 
 /* allows multiple elements to share the same line in the header section */
 header {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1%;
-    width: 100%;
+    padding: 1%; */
+    /* width: 100%; */
     background-color: var(--tertiary);
     color: var(--quaternary);
 }
 
 /* sets font size and shadow on h1 */
-header h1 {
+header .my-name {
     font-size: 250%;
     text-shadow: 0 0 10px var(--secondary);
 }
 
 /* positions nav elements on the right of header */
-nav ul {
+/* nav ul {
     display: flex;
     justify-content: space-around;
     min-width: 300px;
     list-style-type: none;
-  }
+  } */
 
 /* allowing nav elements to sit side by side without bullet points or underline */
-nav li a {
+/* nav li a {
     display: inline;
     color: var(--quaternary);
     text-decoration: none;
-}
+} */
 
 /* changes color of nav when mouse hovers over */
-nav li a:hover {
+/* nav li a:hover {
     color: var(--secondary);
-}
+} */
 
-main {
+/* main {
     width: 98%;
-}
+} */
 
-section {
+/* section {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -59,7 +59,7 @@ section {
     padding: 1.5rem;
     transition: flex-basis 500ms linear;
     margin-bottom: 1.5rem;
-}
+} */
 
 h2{
     font-size: 175%;
@@ -74,54 +74,54 @@ h3{
     font-size: 125%;
 }
 
-.box-fig {
+/* .box-fig {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     min-height: 100%;
     flex: 1;
-}
+} */
 
 /* added two borders to give the picture a differnet look also made it inline and allowed text to sit next to it */
 #selfie {
     border: 5px solid var(--primary);
     outline: 5px solid var(--tertiary);
-    position: relative;
+    /* position: relative;
     top: 0px;
     left: 15px;
     display: inline-block;
-    margin-right: 25px;
+    margin-right: 25px; */
 }
 
-#myinfo {
+/* #myinfo {
     position: relative;
     margin: 2px;
     left: 15px;
-}
+} */
 
-#work {
+/* #work {
     height: 300%;
-}
+} */
 
 /* moved the nam of the project slightly down near cneter of box */
-#work h4 {
+/* #work h4 {
     text-align: center;
     position: relative;
     top: 25px;
     font-size: 115%;
-}
+} */
 
-#work p {
+/* #work p {
     text-align: center;
-}
+} */
 
 
 #work a{
     color:var(--primary);
     /* took away the underline for the link */
     text-decoration: none;
-    justify-content: space-around;
-    padding: 2px;
+    /* justify-content: space-around;
+    padding: 2px; */
 }
 
 #work p{
@@ -129,18 +129,18 @@ h3{
 }
 
 /* set the first project box to grow at a faster rate than the rest of the project boxes */
-#first-work {
+/* #first-work {
     flex: 2 1 600px;
     min-height: 200px;
-}
+} */
 
 /* set the second, third and fourth project boxes to grow and shrink at a normal pace */
-.rest-of-work{
+/* .rest-of-work{
     flex: 1 1 auto;
     min-height: none;
     min-width: none;
     flex-wrap: wrap;
-}
+} */
 
 .glow-box {
     /* use linear-gradient() function to create a fading background  */
@@ -149,16 +149,16 @@ h3{
        rgba(9, 110, 9, 0.6) 100%
     );
     /* smooth transition for boxes when screen is resized */
-    transition: all 0.5s ease-in-out;
+    /* transition: all 0.5s ease-in-out;
     height: 100%;
-    width: 100%;
+    width: 100%; */
 }
 
 /* creates the glow around the box when the mouse is over it */
 .glow-box:hover {
     box-shadow: inset 0px 0px 10px var(--tertiary), 0 0 15px var(--tertiary);
 }
-
+/* 
 #bottom {
     background-color: var(--primary);
     color: var(--quaternary);
@@ -196,4 +196,4 @@ h3{
 
 footer {
     text-align: center;
-}
+} */
