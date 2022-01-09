@@ -64,6 +64,7 @@ header .my-name {
 h2{
     font-size: 175%;
     text-align: center;
+    color: var(--tertiary);
 }
 
 h3{
@@ -83,21 +84,19 @@ h3{
 } */
 
 /* added two borders to give the picture a differnet look also made it inline and allowed text to sit next to it */
-/* #selfie {
+#selfie {
     border: 5px solid var(--primary);
-    outline: 5px solid var(--tertiary); */
+    outline: 5px solid var(--tertiary);
     /* position: relative;
     top: 0px;
     left: 15px;
     display: inline-block;
-    margin-right: 25px; 
-}*/
+    margin-right: 25px; */
+}
 
-/* #myinfo {
-    position: relative;
-    margin: 2px;
-    left: 15px;
-} */
+#myinfo {
+    color: var(--secondary);
+}
 
 /* #work {
     height: 300%;
@@ -200,4 +199,5 @@ h3{
 */
 footer {
     text-align: center;
+    color: var(--primary);
 } 
