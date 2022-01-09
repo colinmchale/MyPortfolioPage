@@ -4,7 +4,7 @@
     --primary: #729E7F;
     --secondary: #0C5723;
     --tertiary: #97D1A8;
-    --quaternary: rgb(239, 240, 227);
+    --quaternary: white;
     background-color: var(--quaternary);
     color: var(--primary);
 }
@@ -83,15 +83,15 @@ h3{
 } */
 
 /* added two borders to give the picture a differnet look also made it inline and allowed text to sit next to it */
-#selfie {
+/* #selfie {
     border: 5px solid var(--primary);
-    outline: 5px solid var(--tertiary);
+    outline: 5px solid var(--tertiary); */
     /* position: relative;
     top: 0px;
     left: 15px;
     display: inline-block;
-    margin-right: 25px; */
-}
+    margin-right: 25px; 
+}*/
 
 /* #myinfo {
     position: relative;
@@ -158,11 +158,10 @@ h3{
 .glow-box:hover {
     box-shadow: inset 0px 0px 10px var(--tertiary), 0 0 15px var(--tertiary);
 }
-/* 
+
 #bottom {
     background-color: var(--primary);
     color: var(--quaternary);
-    width: 100%;
 }
 
 #bottom a {
@@ -175,6 +174,11 @@ h3{
     text-decoration: none;
 }
 
+.contact-color{
+    background-color: var(--primary);
+    border-style: none;
+}
+/* 
 .contact-info {
     display: flex;
     flex-direction: row;
@@ -193,7 +197,7 @@ h3{
     top: 30px;
 
 }
-
+*/
 footer {
     text-align: center;
-} */
+} 
