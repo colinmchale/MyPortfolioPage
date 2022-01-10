@@ -114,13 +114,20 @@ h3{
     text-align: center;
 } */
 
+#work h5{
+    color: var(--quaternary);
+}
 
 #work a{
-    color:var(--primary);
+    color: rgb(242, 248, 150);
     /* took away the underline for the link */
     text-decoration: none;
     /* justify-content: space-around;
     padding: 2px; */
+}
+
+#work a:hover{
+    color: var(--quaternary);
 }
 
 #work p{
@@ -128,8 +135,8 @@ h3{
 }
 
 /* set the first project box to grow at a faster rate than the rest of the project boxes */
-/* #first-work {
-    flex: 2 1 600px;
+/* #big-work {
+    flex: 2 1 auto;
     min-height: 200px;
 } */
 
