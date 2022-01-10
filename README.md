@@ -14,7 +14,7 @@ In this repository, you will find my code building a portfolio page that contain
 * Contact Me - includes a header with proper indentation along with multiples sections of info (one being a link to a seperate tab).
 
 ### Preview
-![Pre](Images\PortflioPagePreview.png)
+![Pre](Images/PortfolioPreview.PNG)
 
 ### Link to Deployed Site
 [Click Here](https://colinmchale.github.io/MyPortfolioPage/).
